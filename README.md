@@ -15,8 +15,8 @@ This project contains a Python script to convert `.wav` audio files into spectro
 1. **Clone the Repository**
 
    ```
-   git clone https://github.com/yourusername/spectrogram-generator.git
-   cd spectrogram-generator
+   git clone https://github.com/sarthakmishra459/audio-classifier.git
+   cd audio-classifier
    ```
 
 2. **Install the Required Packages**
@@ -25,6 +25,13 @@ This project contains a Python script to convert `.wav` audio files into spectro
 
    ```
    pip install numpy librosa matplotlib
+   ```
+3. **Download Dataset**
+
+   You can download the dataset from  `kaggle`:
+
+   ```
+   kaggle datasets download -d sarthak7654654/sounds-dataset
    ```
 
 ## Usage
